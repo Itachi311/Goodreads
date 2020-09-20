@@ -99,7 +99,7 @@ if __name__ == "__main__":
     ap = argparse.ArgumentParser()
 
     # Add the arguments to the parser
-    ap.add_argument("-url", "--GoodreadUrl", required=True, help="Goodreads URL")
+    ap.add_argument("-url", "--GoodreadUrl", required=True, help="Goodreads URL string as input")
     args = vars(ap.parse_args())
 
     GoodReads = GoodreadsAPIClient(args['GoodreadUrl'])
