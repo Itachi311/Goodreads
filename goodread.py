@@ -63,7 +63,6 @@ class GoodreadsAPIClient(object):
         except KeyError:
             pass
 
-    @property
     def get_book_details(self):
 
         try:
