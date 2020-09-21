@@ -102,4 +102,4 @@ if __name__ == "__main__":
     args = vars(ap.parse_args())
 
     GoodReads = GoodreadsAPIClient(args['GoodreadUrl'])
-    GoodRead = GoodReads.get_book_details
+    GoodRead = GoodReads.get_book_details()
